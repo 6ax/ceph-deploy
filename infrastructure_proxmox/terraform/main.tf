@@ -75,17 +75,17 @@ resource "proxmox_vm_qemu" "cloudinit-test" {
 disk {
     type = "scsi"
     storage = "ceph-storage"
-    size = "20"
+    size = "20G"
     format = "raw"
    }
     
 disk {
     type = "scsi"
     storage = "ceph-storage"
-    size = "20"
+    size = "20G"
     format = "raw"
    }
-   
+
   network {
     model = "virtio"
     bridge = "vmbr0"

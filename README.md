@@ -1,1 +1,1 @@
-# ceph-deploy
+# openstack-deploy

@@ -4,7 +4,7 @@ pipeline {
         GIT_USER = '6ax'
         GIT_USER_EMAIL = credentials ('github_config_email')
         GIT_USER_TOKEN = credentials ('github_token_default')
-        GITHUB_REPO_NAME = 'openstack-deploy.git'
+        GITHUB_REPO_NAME = 'ceph-deploy.git'
     }
     stages {
         stage ('Get the code from SCM'){
